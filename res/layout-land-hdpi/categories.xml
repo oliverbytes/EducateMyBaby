@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyButtons"
+    style="@style/styleLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnImageIdentification"
+            style="@style/styleButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="Image Identification" />
+
+        <Button
+            android:id="@+id/btnPinPointing"
+            style="@style/styleButton"
+            android:layout_alignLeft="@+id/btnImageIdentification"
+            android:layout_below="@+id/btnImageIdentification"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="Image Pin pointing" />
+
+        <Button
+            android:id="@+id/btnSoundIdentification"
+            style="@style/styleButton"
+            android:layout_alignLeft="@+id/btnPinPointing"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="Sound Identification" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="92dp"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:src="@drawable/choose" />
+
+</RelativeLayout>

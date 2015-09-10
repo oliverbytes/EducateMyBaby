@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="styleButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="styleLayout">
+        <item name="android:background">@drawable/background</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="styleTextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="styleTextViewMDPI">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="styleButtonMDPI" parent="@android:style/Widget.Button">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="styleButtonX" parent="@android:style/Widget.Button">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+</resources>

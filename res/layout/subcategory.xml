@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    style="@style/styleLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ivSubCatImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/identify_sound" />
+
+    <Button
+        android:id="@+id/btnAnimals"
+        style="@style/styleButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Animals" />
+
+    <Button
+        android:id="@+id/btnCartoons"
+        style="@style/styleButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Cartoons" />
+
+    <Button
+        android:id="@+id/btnMathematics"
+        style="@style/styleButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Mathematics" />
+
+    <Button
+        android:id="@+id/btnShapes"
+        style="@style/styleButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Shapes" />
+
+    <Button
+        android:id="@+id/btnColors"
+        style="@style/styleButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Colors" />
+
+    <Button
+        android:id="@+id/btnObjects"
+        style="@style/styleButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Objects" />
+
+    <Button
+        android:id="@+id/btnBody"
+        style="@style/styleButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Body" />
+
+    <Button
+        android:id="@+id/btnNurseryRhimes"
+        style="@style/styleButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Nursery Rhymes" />
+
+    <Button
+        android:id="@+id/btnObjectsInstruments"
+        style="@style/styleButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Others and Instruments" />
+
+</LinearLayout>

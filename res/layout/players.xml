@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LyPlayers"
+    style="@style/styleLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listPlayers"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:smoothScrollbar="true" >
+    </ListView>
+
+    <EditText
+        android:id="@+id/etPlayerName"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:hint="@string/hintPlayerName"
+        android:textSize="20sp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        style="@style/styleButton"
+        android:background="@drawable/custom_button"
+        android:text="@string/btnAddPlayer" />
+
+</LinearLayout>

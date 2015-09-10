@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {	
+	font-family:Arial;
+	font-size:12px;
+	color:#FFF;
+	line-height:18px;
+	margin:auto;
+	padding:0;
+}
+* {
+	text-decoration:none;
+	outline:none;	
+	border:none;
+	list-style:none;
+}
+
+#container {
+	background:#1D1D1D;
+	padding:0;
+}
+/*---------------------------------------------------------------*/
+/*------------------------------HEADER START---------------------------------*/
+
+#header {	
+    margin:auto;
+    width: 320px;
+	height:99px;
+}
+#top {
+	width: 320px;
+	height:63px;	
+}
+.logo {
+	padding:4px 0 0 10px;	 
+	text-align:center;	
+}
+/*------------------------------HEADER END---------------------------------*/
+
+/*---------------------------------------CONTENT START-------------------------*/
+#content {
+	padding:0;	
+	margin:auto;		
+}
+.contentbg {
+	background: #000;
+}
+.contentbottom {
+	background:no-repeat center bottom;
+	width:290px;
+	padding:10px;
+	margin:auto;	
+}
+.contentbottom h1 {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:10px;
+	color:#1B8CAE;
+}
+.contentbottom h2 {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:13px;
+	font-weight:bold;	
+	color:#1B8CAE;
+}
+.contentbottom h3 {
+	border-top:4px solid #319EBC;
+	padding-top:20px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;	
+	color:#FFF;
+}
+.contentbottom p {
+	margin-bottom:10px;
+}
+.contentpad {
+	padding:10px;	
+}
+.imgSize{
+	width: 300px;
+	height : auto;
+}
+/*---------------------------------------CONTENT END-------------------------*/
+/*---------------------------------------FOOTER START-------------------------*/
+#footer {
+	background:#1D1D1D;
+	border-top:4px solid #319EBC;	
+	padding:4px 0;	
+	margin-top:10px;	
+}
+#copyright {
+	font-size:11px;
+	color:#FFFFFF;	
+	text-align:center;	
+}
+/*---------------------------------------CONTACT END-------------------------*/
+
+

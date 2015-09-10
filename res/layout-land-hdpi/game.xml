@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/styleLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_land" >
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/flQuestions"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            style="@style/styleTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/question_bg"
+            android:gravity="center"
+            android:text="@string/tvQuestion"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnA"
+            style="@style/styleButton"
+            android:layout_width="300dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/btnA" />
+
+        <Button
+            android:id="@+id/btnB"
+            style="@style/styleButton"
+            android:layout_width="300dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/btnB" />
+
+        <Button
+            android:id="@+id/btnC"
+            style="@style/styleButton"
+            android:layout_width="300dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/btnC" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="100dp"
+        android:layout_toLeftOf="@+id/llButtons"
+        android:contentDescription="@string/ivGameImage"
+        android:src="@drawable/a_lion" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        style="@style/styleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivImage"
+        android:text="@string/tvScore" android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/tvPoints"
+        style="@style/styleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvScore"
+        android:layout_alignBottom="@+id/tvScore"
+        android:layout_alignRight="@+id/ivImage"
+        android:text="@string/tvScorePoints" android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/tvTimer"
+        style="@style/styleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPoints"
+        android:layout_alignBottom="@+id/tvPoints"
+        android:layout_marginRight="88dp"
+        android:layout_toLeftOf="@+id/tvPoints"
+        android:text="@string/tvSeconds" android:textColor="#FFF"/>
+
+</RelativeLayout>

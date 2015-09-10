@@ -1,0 +1,67 @@
+how to play: from three buttons
+image identification:
+-select from categories
+
+--Animals
+the picture of an animal will flash in the screen
+you need to select from the three choices before you run out of time ,
+or else it will be consider as wrong and you will proceed to next question
+
+--Cartoons
+the pictures of the cartoon characters will flash in the screen
+all you need to do is to select from the three choices before you run out of time ,
+or else it will be consider as wrong and you will proceed to next question
+
+--Mathematics
+there will be different pictures that will flash in the screen
+read and understand the question 
+select your answer from different choices before you run out of time or else it will be consider as wrong
+and you'll be proceed to next question
+
+--Shapes
+pictures will randomly flash in the screen 
+select your answer in the choices before you run out of time or else it will be consider as wrong
+and you will proceed to the next question
+
+--Colors
+there will be different objects that will flash in the screen
+you need to identify what is the color of the object before you run out of time or else it will be consider as wrong
+	and you'll proceed to next question
+
+pin pointing:
+select from categories
+
+--Objects
+read the name of the given object above
+select the the correct object from the given before you run out of time 
+or else it will be consider as wrong and you will proceed to the next question
+
+--Shapes
+read the name of the given shape above
+select the the correct shape from the given before you run out of time 
+or else it will be consider as wrong and you will proceed to the next question
+
+--Body
+
+read the name of the given part of the body above
+select the the correct part of the body from the given before you run out of time 
+or else it will be consider as wrong and you will proceed to the next question
+
+sound identification:
+select from categories
+
+--Animals
+listen carefully to sound of an animal
+select the correct animal from the given choices before you run out of time 
+	or else it will be consider as wrong and you will proceed to the next sound
+
+--Nursery rhymes
+listen carefully to the title of the sound
+select the correct title from the given choices before you run out of time 
+	or else it will be consider as wrong and you will proceed to the next sound
+
+--Object and instruments
+
+listen carefully to the sound of the objects and instruments
+select the correct title from the given choices before you run out of time 
+	or else it will be consider as wrong and you will proceed to the next sound

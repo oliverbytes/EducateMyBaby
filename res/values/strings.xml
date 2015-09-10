@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Educate My Baby</string>
+    
+    <!-- ************ MAIN MENU  ************* -->
+
+    <!-- ************ CATEGORIES  ************* -->
+
+    <!-- ************ DIFFICULTY ************* -->
+
+    <!-- ************ PLAYERS  ************* -->
+    <string name="btnAddPlayer">Add Player</string>
+    <string name="hintPlayerName">Player Name</string>
+    
+    <!-- ************ GAME  ************* -->
+    <string name="btnA">A</string>
+    <string name="btnB">B</string>
+    <string name="btnC">C</string>
+    <string name="btnBackToMainMenu">Back To Main Menu</string>
+    
+    <string name="tvQuestion">Question goes here</string>
+    <string name="tvScore">Score: 0</string>
+    <string name="tvScorePoints">0 Points</string>
+    <string name="tvSeconds">Secs: 0</string>
+    
+    <string name="ivGameImage">Image Holder</string>
+    
+    <!-- ************ SPLASH SCREEN  ************* -->
+    <string name="ivSplashImage">Splash Image Holder</string>
+    <string name="txtLoading">Loading...</string>
+    
+<!-- CONTEXT MENU SAMPLE -->
+    
+
+</resources>

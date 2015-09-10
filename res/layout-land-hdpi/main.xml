@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlMain"
+    style="@style/styleLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_land_main"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnStartGame"
+            style="@style/styleButton"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/btnOptions"
+            style="@style/styleButton"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="Options" />
+
+        <Button
+            android:id="@+id/btnScoreBoard"
+            style="@style/styleButton"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="Scores" />
+        
+          <Button
+            android:id="@+id/btnNotesToStudy"
+            style="@style/styleButton"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="Notes" />sss
+
+        <Button
+            android:id="@+id/btnPlayXylophone"
+            style="@style/styleButton"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button"
+            android:text="Play the Xylophone" />
+
+        <Button
+            android:id="@+id/btnHelp"
+            style="@style/styleButton"
+            android:background="@drawable/custom_button"
+            android:text="Help" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTouchToContinue"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ivLogoText"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="150dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/logotext" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTouchToContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Touch To Continue"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

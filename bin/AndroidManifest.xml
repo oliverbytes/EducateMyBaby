@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.educate.nemory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".Players"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Categories"
+            android:configChanges="orientation"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".SubCategory"
+            android:configChanges="orientation"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.educate.nemory.Game"
+            android:configChanges="orientation"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Options"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Help"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".StudyNotes"
+            android:configChanges="orientation" />
+        <activity
+            android:name=".HighScores"
+            android:configChanges="orientation" />
+        <activity
+            android:name=".Drums"
+            android:configChanges="orientation" />
+        <activity
+            android:name=".Xylophone"
+            android:screenOrientation="landscape"/>
+
+        <!--
+               <receiver android:name=".Widget" android:label="@string/app_name">
+              <intent-filter >
+                  <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+              </intent-filter>
+              <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_stuff"/>
+          </receiver>
+        -->
+    </application>
+
+</manifest>

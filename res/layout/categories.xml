@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyButtons"
+    style="@style/styleLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/choose" />
+
+    <Button
+        android:id="@+id/btnImageIdentification"
+        style="@style/styleButton"
+        android:background="@drawable/custom_button"
+        android:text="Image Identification"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnPinPointing"
+        style="@style/styleButton"
+        android:background="@drawable/custom_button"
+        android:text="Image Pin pointing" 
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnSoundIdentification"
+        style="@style/styleButton"
+        android:background="@drawable/custom_button"
+        android:text="Sound Identification" 
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>
